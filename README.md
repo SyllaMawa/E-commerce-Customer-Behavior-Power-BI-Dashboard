@@ -1,5 +1,13 @@
 #  E-commerce Customer Behavior — Power BI Dashboard
 
+
+
+##  Aperçu du dashboard
+
+![Dashboard Overview](images/dashboard_overview.png)
+
+---
+
 Ce projet présente une analyse du comportement d’achat de clients e-commerce, réalisée à l’aide de Power BI à partir d’un dataset issu de Kaggle.
 
 ---
@@ -154,10 +162,5 @@ Concrètement :
 
 ---
 
-##  Aperçu du dashboard
 
-![Dashboard Overview](images/dashboard_overview.png)
 
----
-
-## 📁 Structure du projet
