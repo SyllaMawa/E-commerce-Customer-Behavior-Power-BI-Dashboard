@@ -153,7 +153,7 @@ Un bon niveau de satisfaction constitue un levier clé pour :
 
 ---
 
-## ⚠️ Limites méthodologiques
+##  Limites méthodologiques
 
 - Dataset déjà filtré avant analyse  
 - Échantillon réduit (58 clients)  
@@ -164,7 +164,7 @@ Un bon niveau de satisfaction constitue un levier clé pour :
 
 ---
 
-## 🖼️ Aperçu du dashboard
+##  Aperçu du dashboard
 
 ![Dashboard Overview](images/dashboard_overview.png)
 
