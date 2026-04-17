@@ -40,7 +40,7 @@ L’objectif était simple : partir de données brutes et en tirer des insights 
 
 ---
 
-## 🛠️ Préparation des données
+##  Préparation des données
 
 Avant de construire le dashboard, j’ai effectué plusieurs étapes de préparation :
 
@@ -64,11 +64,11 @@ J’ai également créé une colonne **Age_group** directement dans Power BI afi
 
 ---
 
-## 📊 Dashboard Power BI
+##  Dashboard Power BI
 
 Le dashboard est construit autour de trois axes :
 
-### 👤 Profil client
+###  Profil client
 - Répartition par genre  
 - Segmentation par âge  
 - Type de membership  
@@ -95,7 +95,7 @@ Les données montrent un profil assez marqué :
 - 100 % dans la catégorie *Adult*  
 - 100 % membres *Silver*  
 
-👉 On est face à un segment très spécifique, avec un comportement relativement cohérent.
+ On est face à un segment très spécifique, avec un comportement relativement cohérent.
 
 ---
 
@@ -110,7 +110,7 @@ Malgré un statut *Silver*, les clients sont actifs et réguliers dans leurs ach
 
 ---
 
-### 🌍 Une activité concentrée
+###  Une activité concentrée
 
 Même si plusieurs villes existent dans le dataset, les données analysées montrent une activité concentrée sur **Miami**.
 
@@ -138,7 +138,7 @@ Concrètement :
 
 ---
 
-## 🚀 Recommandations
+##  Recommandations
 
 ### 1. Travailler la montée en gamme
 - Proposer des offres **Gold / Premium**  
