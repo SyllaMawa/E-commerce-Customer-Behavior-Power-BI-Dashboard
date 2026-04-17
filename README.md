@@ -1,31 +1,24 @@
-# 📊 E-commerce Customer Behavior — Power BI Dashboard
+#  E-commerce Customer Behavior — Power BI Dashboard
 
-Analyse du comportement d’achat des clients d’un site e-commerce à partir d’un dataset Kaggle.
+Ce projet présente une analyse du comportement d’achat de clients e-commerce, réalisée à l’aide de Power BI à partir d’un dataset issu de Kaggle.
 
 ---
 
-## 🎯 Objectif du projet
+##  Objectif du projet
 
-L’objectif de ce projet est d’analyser les comportements d’achat clients afin de :
+L’objectif était simple : partir de données brutes et en tirer des insights utiles pour comprendre les clients et orienter des décisions business.
 
-- Identifier les profils clients dominants  
-- Comprendre les habitudes de consommation  
-- Analyser la performance commerciale  
-- Proposer des recommandations business concrètes  
-
-Ce projet s’inscrit dans une démarche complète de data analyse :
-
-- Préparation des données  
-- Transformation et enrichissement  
-- Visualisation sous Power BI  
-- Analyse et interprétation métier  
+À travers ce projet, j’ai cherché à répondre à plusieurs questions :
+- Qui sont les clients ?
+- Comment consomment-ils ?
+- Quels sont les leviers d’amélioration côté business ?
 
 ---
 
 ## 🗂️ Dataset
 
 - **Source** : Kaggle — *E-commerce Customer Behavior – Sheet1*  
-- **Taille** : 58 observations  
+- **Nombre de clients** : 58  
 - **Particularité** : dataset déjà filtré avant utilisation  
 
 ### Variables principales :
@@ -41,21 +34,21 @@ Ce projet s’inscrit dans une démarche complète de data analyse :
 
 ## 🛠️ Préparation des données
 
-### 🔧 Transformations réalisées
+Avant de construire le dashboard, j’ai effectué plusieurs étapes de préparation :
 
-- Vérification et nettoyage des données  
-- Harmonisation des variables catégorielles  
-- Typage des colonnes  
+- Nettoyage et vérification des données  
+- Harmonisation des catégories  
+- Correction des types de données  
 
-### ➕ Enrichissement des données
+### ➕ Enrichissement
 
-Création d’une colonne conditionnelle **Age_group** dans Power BI :
+J’ai également créé une colonne **Age_group** directement dans Power BI afin de faciliter l’analyse :
 
 - 18–35 → *Young Adult*  
 - 36–55 → *Adult*  
 - 56+ → *Senior*  
 
-### 📐 Mesures DAX créées
+###  Mesures utilisées
 
 - Total Spend  
 - Total Items Purchased  
@@ -65,102 +58,99 @@ Création d’une colonne conditionnelle **Age_group** dans Power BI :
 
 ## 📊 Dashboard Power BI
 
-Le dashboard est structuré autour de trois axes principaux :
+Le dashboard est construit autour de trois axes :
 
-### 1. Profil client
+### 👤 Profil client
 - Répartition par genre  
 - Segmentation par âge  
 - Type de membership  
 
-### 2. Comportement d’achat
-- Nombre total d’articles achetés  
-- Dépenses totales  
+### 🛒 Comportement d’achat
+- Volume d’articles achetés  
+- Niveau de dépense  
 - Intensité d’achat  
 
-### 3. Performance commerciale
+###  Performance
 - Analyse par ville  
-- Indicateurs de satisfaction  
-- Corrélation entre dépenses et comportement  
+- Satisfaction client  
+- Vue globale de l’activité  
 
 ---
 
-## 📈 Analyse Business
+##  Analyse & Insights
 
-### 1. Vue d’ensemble
+###  Une clientèle très homogène
 
-L’analyse met en évidence un segment client fortement homogène :
+Les données montrent un profil assez marqué :
 
-- Majoritairement féminin (≈ 82 %)  
-- 100 % appartenant à la catégorie *Adult*  
+- Environ 82 % de femmes  
+- 100 % dans la catégorie *Adult*  
 - 100 % membres *Silver*  
-- Activité concentrée sur la ville de Miami  
 
-Ce segment constitue le cœur actif du dataset analysé.
+👉 On est face à un segment très spécifique, avec un comportement relativement cohérent.
 
 ---
 
-### 2. Comportement d’achat
+### 🛍️ Un bon niveau d’engagement
 
 - **675 articles achetés**  
 - **660,3 de dépenses totales**
 
-Malgré un statut *Silver*, les clients présentent un niveau d’engagement élevé.
+Malgré un statut *Silver*, les clients sont actifs et réguliers dans leurs achats.
 
-👉 **Lecture business** :  
-Le comportement observé est proche d’un segment à forte valeur, suggérant un potentiel d’augmentation de la valeur client.
-
----
-
-### 3. Analyse géographique
-
-Bien que le dataset contienne plusieurs villes, les données exploitées montrent une concentration des transactions sur **Miami**.
-
-👉 **Lecture business** :  
-- Marché local fortement actif  
-- Opportunité de consolidation sur cette zone  
-- Nécessité d’élargir l’analyse pour une vision globale  
+ Cela peut indiquer un potentiel intéressant en termes de montée en gamme.
 
 ---
 
-### 4. Satisfaction client
+### 🌍 Une activité concentrée
 
-Les indicateurs de rating sont principalement associés au segment adulte et indiquent un niveau de satisfaction globalement positif.
+Même si plusieurs villes existent dans le dataset, les données analysées montrent une activité concentrée sur **Miami**.
 
-👉 **Lecture business** :  
-Un bon niveau de satisfaction constitue un levier clé pour :
-- la fidélisation  
-- l’upsell  
-- la recommandation client  
+ Cela s’explique par le fait que le dataset utilisé est déjà filtré.
 
 ---
 
-## 🧠 Recommandations Business
+### ⭐ Satisfaction client
 
-### 1. Maximisation de la valeur client
-- Mettre en place des offres **premium (Gold / Platinum)**  
-- Développer des stratégies d’**upsell et cross-sell**  
-- Créer des avantages exclusifs pour les membres Silver  
+Les ratings disponibles indiquent une satisfaction globalement positive.
 
-### 2. Personnalisation marketing
-- Campagnes ciblées basées sur le comportement d’achat  
-- Recommandations produits personnalisées  
-- Segmentation avancée  
-
-### 3. Expansion analytique
-- Intégrer un dataset complet non filtré  
-- Comparer les performances entre villes  
-- Identifier de nouveaux segments clients  
+ C’est un bon signal pour travailler sur la fidélisation.
 
 ---
 
-##  Limites méthodologiques
+##  Lecture business
 
-- Dataset déjà filtré avant analyse  
-- Échantillon réduit (58 clients)  
-- Faible diversité démographique  
-- Concentration géographique sur une seule ville  
+Ce projet met en évidence un point intéressant :
 
-👉 Les résultats doivent être interprétés comme une **analyse exploratoire** et non comme une vision exhaustive du marché.
+Un segment client engagé, mais sous-exploité.
+
+Concrètement :
+- Les clients dépensent et achètent régulièrement  
+- Mais ils restent sur une offre *Silver*  
+
+---
+
+## 🚀 Recommandations
+
+### 1. Travailler la montée en gamme
+- Proposer des offres **Gold / Premium**  
+- Mettre en place des avantages exclusifs  
+
+### 2. Mieux exploiter le segment existant
+- Personnalisation des campagnes marketing  
+- Recommandations produits ciblées  
+
+### 3. Aller plus loin dans l’analyse
+- Utiliser un dataset non filtré  
+- Comparer les villes  
+- Explorer d’autres segments clients  
+
+---
+
+##  Limites du projet
+
+- Dataset déjà filtré  
+- Taille réduite (58 clients)  
 
 ---
 
