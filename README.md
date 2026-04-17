@@ -4,7 +4,7 @@
 
 ##  Aperçu du dashboard
 
-![Dashboard Overview](images/E-commerce visualisation.png)
+![Dashboard Overview](images/E-Commerce Dashboard.png)
 
 ---
 
