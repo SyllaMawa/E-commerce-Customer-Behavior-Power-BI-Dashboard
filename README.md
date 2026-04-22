@@ -148,11 +148,6 @@ Concrètement :
 - Personnalisation des campagnes marketing  
 - Recommandations produits ciblées  
 
-### 3. Aller plus loin dans l’analyse
-- Utiliser un dataset non filtré  
-- Comparer les villes  
-- Explorer d’autres segments clients  
-
 ---
 
 ##  Limites du projet
